@@ -1,54 +1,58 @@
 # Arduino-ESP32 Robot Car
 
 ## Overview
-This project is an embedded robot car built with Arduino Mega and ESP32.  
-It combines motor control, encoder feedback, and wireless web control in a practical robotics system.
+This project is a practical embedded robot car based on Arduino Mega and ESP32.  
+It combines electronics, motor control, encoder feedback, and wireless control in a hands-on robotics project.
 
 ## Objective
-The main goal of this project was to design and test a mobile robotic platform capable of controlled movement, speed adjustment, and remote operation.
+The objective of this project was to build a robot car capable of remote control and basic movement regulation, while improving system integration and practical debugging skills.
 
 ## Hardware
 - Arduino Mega 2560
 - ESP32
 - L298N motor drivers
 - DC motors with encoders
-- Battery power supply
-- Robot chassis and wheels
+- Battery supply
+- Robot chassis
 
-## Software
+## Software and Tools
 - Arduino IDE
 - C / C++
+- Serial communication
 - Web-based control interface
-- Serial communication between boards
 
-## Main Features
-- Forward, backward, left, and right movement
-- Wireless control through an ESP32 web interface
-- Encoder-based speed feedback
-- Motor tuning and movement adjustment
-- Practical debugging and system testing
+## Functions
+- Forward movement
+- Backward movement
+- Left and right turning
+- Wireless control from a web interface
+- Encoder-based feedback for speed-related adjustment
 
-## My Work
-- Connected and tested the hardware system
-- Programmed the movement and control logic
-- Integrated Arduino Mega and ESP32 communication
-- Worked on motor speed tuning and stability
-- Tested the system and fixed movement problems during debugging
+## What I Did
+- Assembled and connected the hardware components
+- Programmed the motor control logic
+- Implemented communication between Arduino Mega and ESP32
+- Tested the movement response in real conditions
+- Tuned the system to improve stability and turning behavior
+- Debugged motor imbalance and control issues
 
-## Challenges
-One of the main difficulties was keeping the robot moving in a stable way, since different motors and wheels did not always behave equally.  
-I also worked on improving turning performance, reducing unstable movement, and making the control response more practical.
+## Challenges and Debugging
+This project involved several practical challenges, especially in keeping the robot stable during movement.  
+Some motors did not always respond equally, which affected straight movement and turning performance.  
+To improve the system, I worked on repeated testing, parameter tuning, and hardware-software adjustment.
 
 ## Results
-The robot was able to perform basic directional movement and wireless control.  
-This project helped me improve my understanding of embedded systems, electronics, motor control, and hardware-software integration.
+The final system was able to perform basic wireless movement control and practical motion testing.  
+This project strengthened my skills in embedded systems, motor control, electronics, and real-world debugging.
 
-## Project Images
-Project photos and related images can be found in the `images` folder.
+## Repository Structure
+- `code/` for source code
+- `images/` for project photos and diagrams
+- `docs/` for extra notes and explanations
 
 ## Future Improvements
-- Better speed regulation
-- More stable straight movement
-- Improved turning performance
-- Better wireless interface
-- More robust power management
+- More precise speed regulation
+- Better movement consistency
+- Improved power distribution
+- Cleaner control interface
+- More advanced control strategy
